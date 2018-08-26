@@ -49,10 +49,10 @@ Update the following variables in vars.php.
 
 | Config | Value |
 |--------|-------|
-| $APP1_CLIENT_ID | <App1 client ID>; |
-| $APP2_CLIENT_ID | <App1 client ID>; |
-| $APP1_CLIENT_SECRET | <App1 client Secret>; |
-|$APP2_CLIENT_SECRET |  <App1 client Secret>; |
-|$AUTH0_DOMAIN | <AUTH0 TENANT>; |
+| $APP1_CLIENT_ID | App1 client ID; |
+| $APP2_CLIENT_ID | App1 client ID; |
+| $APP1_CLIENT_SECRET | App1 client Secret; |
+|$APP2_CLIENT_SECRET |  App1 client Secret; |
+|$AUTH0_DOMAIN | AUTH0 TENANT; |
 
 
