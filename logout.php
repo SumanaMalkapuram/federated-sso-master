@@ -1,5 +1,6 @@
 <?php
 include 'vars.php';
+
 $domain=$AUTH0_DOMAIN;
 $app = substr($_SERVER['HTTP_HOST'], 0, 4);
 

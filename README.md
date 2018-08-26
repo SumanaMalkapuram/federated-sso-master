@@ -41,16 +41,17 @@ Create two Auth0 applications:
 | Allowed Callback URLs | http://app1.com/cb.php, http://app2.com/cb.php |
 | Allowed Logout URLs | http://app1.com/login.php?sso=true |
 
-Source Code
+
+Configuration
 -----------
 
 Update the following variables in vars.php.
 
-$APP1_CLIENT_ID = ## App1 client ID ##;
-$APP2_CLIENT_ID = ## App1 client ID ##;
-$APP1_CLIENT_SECRET = ## App1 client Secret ##;
-$APP2_CLIENT_SECRET = ## App1 client Secret ##;
-
-$AUTH0_DOMAIN = ## AUTH0 TENANT ##;
+| Key | Value |
+| $APP1_CLIENT_ID | <App1 client ID>; |
+| $APP2_CLIENT_ID | <App1 client ID>; |
+| $APP1_CLIENT_SECRET | <App1 client Secret>; |
+|$APP2_CLIENT_SECRET |  <App1 client Secret>; |
+|$AUTH0_DOMAIN | <AUTH0 TENANT>; |
 
 
